@@ -18,23 +18,42 @@
             Background="{DynamicResource PrimaryHueLightBrush}">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="70" />
+                <RowDefinition Height="73" />
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
             <Button x:Name="CloseButton"
                     Click="CloseButton_Click"
-                    Height="50"
-                    Width="50"
+                    IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource AncestorType={x:Type Window}, Mode=FindAncestor}}"
+                    Height="53"
+                    Width="53"
                     FontSize="15"
                     HorizontalAlignment="Left"
                     Background="{DynamicResource PrimaryHueMidBrush}"
                     Foreground="White" 
                     BorderBrush="Transparent"
-                    Margin="740,10,0,10"
+                    Margin="737,10,0,10"
                     Cursor="Hand"
                     materialDesign:ButtonAssist.CornerRadius="13">
-                ✖
+                <materialDesign:PackIcon Kind="CloseThick" Width="37" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Button>
+
+            <Button x:Name="GithubButton"
+                    IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource AncestorType={x:Type Window}, Mode=FindAncestor}}"
+                    ToolTip="Вперёд"
+                    Click="GithubButton_Click"
+                    Height="53"
+                    Width="53"
+                    FontSize="1"
+                    HorizontalAlignment="Left"
+                    Background="{DynamicResource PrimaryHueMidBrush}"
+                    Foreground="White" 
+                    BorderBrush="Transparent"
+                    Margin="10,10,0,10"
+                    Cursor="Hand"
+                    materialDesign:ButtonAssist.CornerRadius="13">
+                <materialDesign:PackIcon Kind="GitHub" Width="37" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Button>
+
 
 
             <StackPanel Grid.Row="0"
@@ -51,6 +70,7 @@
             <Frame Grid.Row="1"
                    x:Name="MainWindowFrame"
                    NavigationUIVisibility="Hidden"/>
+            
         </Grid>
     </Border>
 </Window>

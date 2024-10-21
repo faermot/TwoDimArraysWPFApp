@@ -43,5 +43,10 @@ namespace WpfApp13
             // Begin dragging the window
             this.DragMove();
         }
+
+        private void GithubButton_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/faermot/TwoDimArraysWPFApp.git");
+        }
     }
 }
