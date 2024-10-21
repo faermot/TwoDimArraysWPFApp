@@ -1,4 +1,4 @@
-﻿<Page x:Class="WpfApp13.View.Task6Page"
+﻿<Page x:Class="WpfApp13.View.Task7Page"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -29,11 +29,11 @@
                 Width="380"
                 Padding="8">
             <TextBlock FontSize="25" TextWrapping="Wrap">
-                <Bold>Задание №6</Bold>
+                <Bold>Задание №7</Bold>
                 <LineBreak/>
-                В матрице A <LineBreak/>(4-строки, 3-столбца)
-                поменять местами наибольшие элементы в первом
-                и третьем столбцах.
+                В матрице A <LineBreak/>(3-строки, 4-столбца)
+                поменять местами наименьшие элементы в первой
+                и третьей строке.
             </TextBlock>
         </materialDesign:Card>
 
@@ -56,8 +56,8 @@
                     Grid.Row="1"
                     Width="70">
 
-            <Button x:Name="BtnTask5"
-                    Click="BtnTask5_Click"
+            <Button x:Name="BtnTask6"
+                    Click="BtnTask6_Click"
                     Content="{materialDesign:PackIcon ArrowLeftBold}"
                     IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
                     ToolTip="Назад" Height="50"/>
@@ -72,8 +72,8 @@
                     Height="50"
                     Width="70">
 
-            <Button x:Name="BtnTask7"
-                    Click="BtnTask7_Click"
+            <Button x:Name="BtnTask8"
+                    Click="BtnTask8_Click"
                     Content="{materialDesign:PackIcon ArrowRightBold}"
                     IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource AncestorType={x:Type Window}, Mode=FindAncestor}}"
                     ToolTip="Вперёд" Height="50"/>
