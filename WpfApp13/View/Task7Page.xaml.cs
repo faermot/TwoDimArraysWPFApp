@@ -70,7 +70,7 @@ namespace WpfApp13.View
 
         private void BtnTask8_Click(object sender, RoutedEventArgs e)
         {
-
+            ServiceNavigateHelper.FrameNavigate.Navigate(new Task8Page());
         }
 
         private void BtnTask6_Click(object sender, RoutedEventArgs e)

@@ -85,6 +85,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Services\ServiceNavigateHelper.cs" />
+    <Page Include="View\Task8Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Task7Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="View\Task6Page.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -116,6 +124,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View\Task8Page.xaml.cs">
+      <DependentUpon>Task8Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Task7Page.xaml.cs">
+      <DependentUpon>Task7Page.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Task6Page.xaml.cs">
       <DependentUpon>Task6Page.xaml</DependentUpon>
