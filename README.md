@@ -1,9 +1,9 @@
 # WpfApp13
 
-![image](https://github.com/user-attachments/assets/5f0ab91f-3322-4111-aa45-4ab7898bf9ac)
+![image](https://github.com/user-attachments/assets/2faa18e4-9a98-4f8d-8add-ce819819e997)
 
-![image](https://github.com/user-attachments/assets/4a2aed61-f2a5-486e-a6b2-fd64604b806a)
+![image](https://github.com/user-attachments/assets/5870da83-9a1c-4fce-b36b-153b4e1a5f6b)
 
-![image](https://github.com/user-attachments/assets/af0514a2-6be3-4bd2-a3bd-28ed97cd74e5)
+![image](https://github.com/user-attachments/assets/50e70a6e-6029-43ea-ae6d-f47768463a58)
 
-![image](https://github.com/user-attachments/assets/ddde8452-d540-4410-8602-de4484d1322d)
+![image](https://github.com/user-attachments/assets/a9043790-5f09-4350-8cb7-85840e511399)
