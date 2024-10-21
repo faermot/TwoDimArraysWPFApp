@@ -1,4 +1,8 @@
-# WpfApp13
+# Двумерные массивы (WPF)
+> Homework 22.10.2024
+<img src="https://github.com/user-attachments/assets/f57852aa-b866-4a98-b1f2-5788c74bcd49" width="135" />
+
+> Карасев Илья
 
 ![image](https://github.com/user-attachments/assets/2faa18e4-9a98-4f8d-8add-ce819819e997)
 
